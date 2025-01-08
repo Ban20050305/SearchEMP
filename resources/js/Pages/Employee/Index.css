@@ -1,0 +1,56 @@
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+.search-form {
+    margin-bottom: 20px;
+}
+.search-form input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 300px;
+}
+.search-form button {
+    padding: 8px 16px;
+    margin-right: 5px;
+    background-color: #FFC1A1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.search-form button:hover {
+    background-color: #FF0000;
+}
+.table-container {
+    overflow-x: auto;
+}
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.employee-table th {
+    background-color: #f4f4f4;
+}
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination button {
+    padding: 8px 16px;
+    background-color: #FF0000; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
